@@ -1,5 +1,3 @@
-name = "Hiruni"
-age  = 23
-print ("Hi guys")
-print(name)
-print(age)
+from student import student
+student = student ("A")
+print (student.value)
